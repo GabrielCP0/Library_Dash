@@ -37,6 +37,7 @@ app.layout = html.Div(
             value='Menores'
      ),
 
+    #Testando o botão de Slider
      dcc.Slider(
        min= 0,
         max = 10,
@@ -45,7 +46,7 @@ app.layout = html.Div(
 
      ),
 
-
+    #Testando o botão de Checklist
     dcc.Checklist(
       options= [
           {'label': 'Maiores', 'value': 'Maiores'},
@@ -55,7 +56,7 @@ app.layout = html.Div(
     ),
 
 
-
+    #Criando um gráfico
      dcc.Graph(
          config= {'displayModeBar': False},
          figure={
